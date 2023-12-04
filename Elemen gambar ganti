@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <img id="sam" src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/14q2/605486/2015-nissan-gt-r-nismo-photo-606029-s-986x603.jpg?crop=0.612xw:1.00xh;0.317xw,0&resize=640:*">
+        
+        <button onClick="ubaah()">
+            hsjdh
+        </button>
+        
+    </body>
+    <script>
+        var gambar = document.getElementById("sam")
+        
+        function ubaah(){
+            gambar.src="https://sumeks.disway.id/upload/bc4e772d965f52df5038aed04ba29afd.jpeg"
+        }
+    </script>
+</html>
