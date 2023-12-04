@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <h1 id="mone">hxhdjdjk</h1>
+    <button id="tom" onClick="you()">ERROR</button>
+        <button id="tom" onClick="and()">ERROR</button>
+        <button id="tom" onClick="mee()">ERROR</button>
+        
+        <div style="display:flex;flex-direction:row;">
+            
+        </div>
+    </body>
+    
+    <script>
+    
+    
+        var tombol = document.getElementById("mone");
+        
+         
+        
+        function you(){
+        
+        var bud = document.getElementsByTagName("div")[0];
+        
+        var apa = 
+document.createElement("h1");
+        
+          tombol.style.color="blue"
+            
+          bud.appendChild(apa)
+          apa.innerText="YOU"
+            
+            
+            
+        }
+        
+        function and(){
+        
+        var bud = document.getElementsByTagName("div")[0];
+        
+        var apa = 
+document.createElement("h1");
+        
+          tombol.style.color="blue"
+            
+          bud.appendChild(apa)
+          apa.innerText="AND"
+            
+            
+            
+        }
+        
+        function mee(){
+        
+        var bud = document.getElementsByTagName("div")[0];
+        
+        var apa = 
+document.createElement("h1");
+        
+          tombol.style.color="blue"
+            
+          bud.appendChild(apa)
+          apa.innerText="ME"
+            
+            
+            
+        }
+        
+        
+    </script>
+</html>
